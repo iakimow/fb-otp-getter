@@ -1,17 +1,13 @@
 {
-  "name": "otp-proxy-server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "express": "^5.1.0",
-    "node-fetch": "^3.3.2"
+	"name": "otp-proxy-server",
+	"version": "1.0.0",
+	"type": "module",
+	"main": "server.js",
+	"scripts": {
+	  "start": "node server.js"
+	},
+	"dependencies": {
+	  "express": "^4.18.2",
+	  "node-fetch": "^3.0.0"
+	}
   }
-}

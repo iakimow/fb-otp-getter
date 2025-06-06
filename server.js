@@ -1,6 +1,7 @@
-const express = require('express');
-const fetch = require('node-fetch');
-const app = express();
+import express from 'express';
+import fetch from 'node-fetch';
+
+const app = express(); // <-- важно: вызываем как функцию
 const PORT = process.env.PORT || 3000;
 
 // Эндпоинт для получения OTP
